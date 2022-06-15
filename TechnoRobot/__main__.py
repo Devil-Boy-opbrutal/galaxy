@@ -87,6 +87,9 @@ buttons = [
     [
         InlineKeyboardButton(
             text="➕️ ᴀᴅᴅ Warrior ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/warriormusic_bot?startgroup=true"),
+        InlineKeyboardButton(
+            text="😜Channel", url=f"https://t.me/gifsgalleryy"
+        ),
     ],
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="amelia_"),
@@ -101,10 +104,10 @@ buttons = [
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ` Techno [🙋‍♀️](https://te.legra.ph/file/eafc028ac026704af987b.jpg)
+`ʜɪ.. ɪ'ᴍ` 𝚆𝚊𝚛𝚛𝚒𝚘𝚛𝚖𝚞𝚜𝚒𝚌 𝚁𝚘𝚋𝚘𝚝 [🙋‍♀️](https://te.legra.ph/file/eafc028ac026704af987b.jpg)
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
 
-techno_IMG = "https://te.legra.ph/file/eafc028ac026704af987b.jpg"
+warriormusic_IMG = "https://te.legra.ph/file/eafc028ac026704af987b.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](#) or by contacting @itsmelegend\
