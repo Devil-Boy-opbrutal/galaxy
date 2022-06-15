@@ -75,7 +75,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴄʀᴇᴀᴛᴏʀ : [DEVYLBOY](https://t.me/raamsiiya)
+┣★ ᴄʀᴇᴀᴛᴏʀ : [DEVILBOY](https://t.me/raamsiiya)
 ┣★ ᴜᴘᴅᴀᴛᴇs : [Shiv.Demon](https://t.me/Shivamdemon)
 ┗━━━━━━━━━━━━━━━━━┛
 🤖 Im 𝚆𝙰𝚁𝚁𝙸𝙾𝚁𝙼𝚄𝚂𝙸𝙲 𝙼𝙰𝙽𝙰𝙶𝙴𝙼𝙴𝙽𝚃 𝙱𝙾𝚃😎 
@@ -107,7 +107,7 @@ HELP_STRINGS = """
 `ʜɪ.. ɪ'ᴍ` 𝚆𝚊𝚛𝚛𝚒𝚘𝚛𝚖𝚞𝚜𝚒𝚌 𝚁𝚘𝚋𝚘𝚝 [🙋‍♀️](https://te.legra.ph/file/eafc028ac026704af987b.jpg)
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
 
-warriormusic_IMG = "https://te.legra.ph/file/eafc028ac026704af987b.jpg"
+techno_IMG = "https://te.legra.ph/file/eafc028ac026704af987b.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](#) or by contacting @itsmelegend\
@@ -365,7 +365,7 @@ def amelia_about_callback(update, context):
     query = update.callback_query
     if query.data == "amelia_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Techno*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *𝚆𝙰𝚁𝚁𝙸𝙾𝚁𝙼𝚄𝚂𝙸𝙲+𝚁𝚘𝚋𝚘𝚝*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -374,7 +374,7 @@ def amelia_about_callback(update, context):
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_bot licensed under the GNU General Public License v3.0_
                  \nHere is the [💾Repository](https://te.legra.ph/file/eafc028ac026704af987b.jpg).
-                 \n\nIf you have any question about Techno, let us know at @SquadGoalsss .""",
+                 \n\nIf you have any question about 𝚆𝙰𝚁𝚁𝙸𝙾𝚁𝙼𝚄𝚂𝙸𝙲, let us know at [Shiv.Demon](https://t.me/Shivamdemon) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
