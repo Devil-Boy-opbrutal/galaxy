@@ -74,14 +74,19 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴇʟʟᴏ [💓](https://telegra.ph/file/3a786b98332c5ef9ce572.jpg), ɪᴍ Techno ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ.
-`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ` /help   
-"""
+┏━━━━━━━━━━━━━━━━━┓
+┣★ ᴄʀᴇᴀᴛᴏʀ : [DEVYLBOY](https://t.me/raamsiiya)
+┣★ ᴜᴘᴅᴀᴛᴇs : [Shiv.Demon](https://t.me/Shivamdemon)
+┗━━━━━━━━━━━━━━━━━┛
+🤖 Im 𝚆𝙰𝚁𝚁𝙸𝙾𝚁𝙼𝚄𝚂𝙸𝙲 𝙼𝙰𝙽𝙰𝙶𝙴𝙼𝙴𝙽𝚃 𝙱𝙾𝚃😎 
+𝐌𝐢𝐧𝐞 𝐜𝐫𝐞𝐚𝐭𝐨𝐫 𝐚𝐧𝐝 𝐦𝐨𝐧𝐞𝐭𝐢𝐳𝐞𝐬 𝐢𝐬 𝐝𝐞𝐯𝐢𝐥 𝐛𝐨𝐲 𝐏𝐫𝐨 𝐦𝐚𝐱 𝐩𝐞𝐫𝐬𝐨𝐧 𝙷𝚎 𝙼𝚊𝚔𝚎 𝚒𝚝 𝐖𝐢𝐭𝐡 𝐥𝐨𝐭 𝐨𝐟 𝐟𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐈'𝐦 𝐬𝐮𝐫𝐞 𝐮 𝐥𝐢𝐤𝐞𝐝 𝐢𝐭
+𝙰𝙳𝙳 𝙼𝙴 𝙱𝙰𝙼𝙱𝚈 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿🌚
+ """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ Techno ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/Techno_x_robot?startgroup=true"),
+            text="➕️ ᴀᴅᴅ Warrior ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/warriormusic_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="amelia_"),
@@ -96,10 +101,10 @@ buttons = [
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ` Techno [🙋‍♀️](https://telegra.ph/file/3a786b98332c5ef9ce572.jpg)
+`ʜɪ.. ɪ'ᴍ` Techno [🙋‍♀️](https://te.legra.ph/file/eafc028ac026704af987b.jpg)
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
 
-techno_IMG = "https://telegra.ph/file/329647a798cccb101aecf.jpg"
+techno_IMG = "https://te.legra.ph/file/eafc028ac026704af987b.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](#) or by contacting @itsmelegend\
@@ -365,8 +370,8 @@ def amelia_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_bot licensed under the GNU General Public License v3.0_
-                 \nHere is the [💾Repository](https://github.com/Team-techno).
-                 \n\nIf you have any question about Techno, let us know at @technobotsupport .""",
+                 \nHere is the [💾Repository](https://te.legra.ph/file/eafc028ac026704af987b.jpg).
+                 \n\nIf you have any question about Techno, let us know at @SquadGoalsss .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -377,7 +382,7 @@ def amelia_about_callback(update, context):
                 ]
             ),
         )
-    elif query.data == "amelia_back":
+    elif query.data == "Warriormusic":
         query.message.edit_text(
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
@@ -393,7 +398,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..🤗 I'm *Techno*
-                 \nHere is the [Source Code](https://github.com/Team-techno) .""",
+                 \nHere is the [Source Code](https://te.legra.ph/file/eafc028ac026704af987b.jpg) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
