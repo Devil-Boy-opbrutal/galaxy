@@ -76,7 +76,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 ┏━━━━━━━━━━━━━━━━━┓
 ┣★ ᴄʀᴇᴀᴛᴏʀ : [DEVILBOY](https://t.me/raamsiiya)
-┣★ ᴜᴘᴅᴀᴛᴇs : [Shiv.Demon](https://t.me/Shivamdemon)
+┣★ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 : [𝙰𝙽𝙾𝙽𝚈𝙼𝙾𝚄𝚂](https://t.me/V_armyyyy) 
 ┗━━━━━━━━━━━━━━━━━┛
 🤖 Im 𝚆𝙰𝚁𝚁𝙸𝙾𝚁𝙼𝚄𝚂𝙸𝙲 𝙼𝙰𝙽𝙰𝙶𝙴𝙼𝙴𝙽𝚃 𝙱𝙾𝚃😎 
 𝐌𝐢𝐧𝐞 𝐜𝐫𝐞𝐚𝐭𝐨𝐫 𝐚𝐧𝐝 𝐦𝐨𝐧𝐞𝐭𝐢𝐳𝐞𝐬 𝐢𝐬 𝐝𝐞𝐯𝐢𝐥 𝐛𝐨𝐲 𝐏𝐫𝐨 𝐦𝐚𝐱 𝐩𝐞𝐫𝐬𝐨𝐧 𝙷𝚎 𝙼𝚊𝚔𝚎 𝚒𝚝 𝐖𝐢𝐭𝐡 𝐥𝐨𝐭 𝐨𝐟 𝐟𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐈'𝐦 𝐬𝐮𝐫𝐞 𝐮 𝐥𝐢𝐤𝐞𝐝 𝐢𝐭
@@ -197,7 +197,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="⬅️ BACK", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="🙄 BACK", callback_data="help_back")]]
                     ),
                 )
 
@@ -227,10 +227,10 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="t.me/Technobotsupport"), 
+                [[InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="t.me/SquadGoalsss"), 
                  ],
                  [
-                  InlineKeyboardButton(text="ᴀssɪsᴛᴀɴᴛ", url="t.me/Technomusicassistant"),]]              
+                  InlineKeyboardButton(text="ᴀssɪsᴛᴀɴᴛ", url="t.me/gifsgalleryy"),]]              
                   
             ),
         )
